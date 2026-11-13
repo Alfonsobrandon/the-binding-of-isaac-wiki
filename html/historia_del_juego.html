@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="shortcut icon" href="../img/Tainted_Eve.webp" type="image/x-icon">
+  <title> Historia del juego | The Binding of Isaac: Rebirth Wiki</title>
+  <style>
+    
+    .story-page .story-intro { background: rgba(18, 12, 10, .52); border: 1px solid #6c4b38; border-radius: 12px; padding: 1.5rem; }
+    .story-page .story-lead { font-size: 1.7rem; line-height: 1.25; }
+    .story-page .story-card { background: #291b16; border: 2px solid #60412f; color: var(--color-texto); border-radius: 10px; overflow: hidden; transition: transform .2s ease, border-color .2s ease; }
+    .story-page .story-card:hover { transform: translateY(-4px); border-color: var(--color-deco-2); }
+    .story-page .story-card .card-title { color: var(--color-texto-alt); font-size: 1.25rem; }
+    .story-page .story-card .card-text { font-size: 1.4rem; }
+    .story-page .story-icon { font-size: 2.5rem; line-height: 1; margin-bottom: .8rem; }
+    .story-page .story-step { border-left: 4px solid var(--color-deco-1); padding: .35rem 0 .7rem 1.2rem; margin-bottom: 1rem; background: rgba(0,0,0,.12); }
+    .story-page .story-step h3 { font-size: 1.2rem; color: var(--color-texto-alt); }
+    .story-page .accordion-item { background: #291b16; border: 1px solid #654536; }
+    .story-page .accordion-button { background: #39251d; color: #f1db8b; font-family: "Amatic-sc-Bold", sans-serif; font-size: 1.65rem; }
+    .story-page .accordion-button:not(.collapsed) { background: #503125; color: white; box-shadow: none; }
+    .story-page .accordion-button::after { filter: invert(1); }
+    .story-page .accordion-body { color: var(--color-texto); font-family: "Amatic-sc", sans-serif; font-size: 1.45rem; }
+    .story-page .story-warning { background: rgba(163,17,17,.17); border: 1px solid #a31111; padding: 1rem; border-radius: 8px; }
+    .story-page .story-button { background: #7a251d; color: #fff; border: 1px solid #c89c60; font-family: "Amatic-sc-Bold", sans-serif; font-size: 1.5rem; }
+    .story-page .story-button:hover { background: #a31111; color: #fff; }
+    .story-page .story-note { font-size: 1.2rem; opacity: .85; }
+    .story-page .story-link { color: #f1db8b; }
+    .story-page .story-heading { color: var(--color-texto-alt); }
+    @media (max-width: 576px) { .story-page .story-intro { padding: 1rem; } }
+  </style>
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg wiki-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/Site-logo.webp" alt="Logo" class="wiki-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html" role="button"
+                            aria-expanded="false">
+                            INICIO
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Logros.html" role="button"
+                            aria-expanded="false">
+                            LOGROS
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Personajes.html" role="button"
+                            aria-expanded="false">
+                            PERSONAJES
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Historia_del_desarrollo.html" role="button"
+                            aria-expanded="false">
+                            HISTORIA DEL DESARROLLO 
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" role="button"
+                            aria-expanded="false">
+                            HISTORIA DEL JUEGO
+                        </a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+  <main class="container my-4 story-page">
+    <div class="wiki-container" id="caja">
+      <header class="welcome-section text-center mb-5">
+        <h1>HISTORIA DEL JUEGO</h1>
+        <p class="subtitle">THE BINDING OF ISAAC: REBIRTH</p>
+        <p class="warning-text">Una historia oscura sobre el miedo, la familia y los secretos que esconde el sótano.</p>
+      </header>
+
+      <section class="story-intro mb-5" aria-labelledby="inicio-historia">
+        <h2 class="section-title text-center" id="inicio-historia">¿CÓMO COMIENZA TODO?</h2>
+        <p class="story-lead">Isaac vive con su madre en una pequeña casa. Un día, ella cree escuchar una voz divina que le exige demostrar su fe. Cuando la voz le ordena sacrificar a su hijo, Isaac descubre el peligro y huye a través de una trampilla escondida bajo la alfombra de su habitación.</p>
+        <p>Así comienza su descenso a un sótano lleno de criaturas extrañas, habitaciones misteriosas, objetos inesperados y enemigos aterradores. Cada partida permite explorar nuevas rutas y descubrir fragmentos de una historia que no se cuenta de manera lineal.</p>
+        <div class="text-center"><a class="btn story-button px-4" href="#personajes-historia">CONOCÉ A LOS PROTAGONISTAS</a></div>
+      </section>
+
+      <section class="mb-5" id="personajes-historia" aria-labelledby="titulo-protagonistas">
+        <h2 class="section-title text-center" id="titulo-protagonistas">PERSONAJES CLAVE DE LA HISTORIA</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col"><article class="card story-card h-100"><div class="card-body text-center"><div class="story-icon" aria-hidden="true">👦</div><h3 class="card-title">ISAAC</h3><p class="card-text">El protagonista. Intenta escapar de su madre y sobrevivir a los peligros que encuentra bajo su casa.</p></div></article></div>
+          <div class="col"><article class="card story-card h-100"><div class="card-body text-center"><div class="story-icon" aria-hidden="true">👩</div><h3 class="card-title">MOM</h3><p class="card-text">La madre de Isaac. Su interpretación de una voz divina desencadena los acontecimientos de la historia.</p></div></article></div>
+          <div class="col"><article class="card story-card h-100"><div class="card-body text-center"><div class="story-icon" aria-hidden="true">🚪</div><h3 class="card-title">EL SÓTANO</h3><p class="card-text">Más que un escenario: es el lugar donde Isaac enfrenta criaturas, recuerdos y temores.</p></div></article></div>
+        </div>
+        <p class="story-note mt-3">Estas tarjetas presentan elementos narrativos. La página de Personajes puede desarrollar por separado sus habilidades y estadísticas.</p>
+      </section>
+
+      <section class="mb-5" aria-labelledby="titulo-recorrido">
+        <h2 class="section-title text-center" id="titulo-recorrido">EL DESCENSO DE ISAAC</h2>
+        <div class="row g-4">
+          <div class="col-md-6"><div class="story-step"><h3>01 · LA VOZ</h3><p>La madre de Isaac escucha una voz que interpreta como un mensaje de Dios. Comienza a apartar a Isaac de sus juguetes y del mundo exterior.</p></div></div>
+          <div class="col-md-6"><div class="story-step"><h3>02 · LA HUIDA</h3><p>Ante la amenaza de su madre, Isaac encuentra una trampilla y se esconde en el sótano.</p></div></div>
+          <div class="col-md-6"><div class="story-step"><h3>03 · LOS ENFRENTAMIENTOS</h3><p>El jugador atraviesa pisos generados de manera aleatoria, derrota monstruos y reúne objetos que cambian sus habilidades.</p></div></div>
+          <div class="col-md-6"><div class="story-step"><h3>04 · LOS SECRETOS</h3><p>Las distintas rutas, escenas y finales revelan nuevas pistas sobre Isaac y su familia, aunque algunos detalles quedan abiertos a interpretación.</p></div></div>
+        </div>
+      </section>
+
+      <section class="mb-5" aria-labelledby="titulo-misterios">
+        <h2 class="section-title text-center" id="titulo-misterios">MISTERIOS DEL JUEGO</h2>
+        <p>Explorá estas preguntas para conocer mejor el universo de Isaac sin revelar directamente sus finales.</p>
+        <div class="accordion" id="accordionHistoria">
+          <div class="accordion-item"><h3 class="accordion-header" id="preguntaUno"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#respuestaUno" aria-expanded="true" aria-controls="respuestaUno">¿Por qué Isaac entra al sótano?</button></h3><div id="respuestaUno" class="accordion-collapse collapse show" aria-labelledby="preguntaUno" data-bs-parent="#accordionHistoria"><div class="accordion-body">Porque intenta escapar cuando su madre se dispone a hacerle daño tras escuchar una voz que cree divina.</div></div></div>
+          <div class="accordion-item"><h3 class="accordion-header" id="preguntaDos"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#respuestaDos" aria-expanded="false" aria-controls="respuestaDos">¿Por qué cada partida es distinta?</button></h3><div id="respuestaDos" class="accordion-collapse collapse" aria-labelledby="preguntaDos" data-bs-parent="#accordionHistoria"><div class="accordion-body">Los niveles, enemigos y objetos varían entre partidas. Esta estructura roguelike hace que cada recorrido sea diferente, aunque el punto de partida narrativo sea el mismo.</div></div></div>
+          <div class="accordion-item"><h3 class="accordion-header" id="preguntaTres"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#respuestaTres" aria-expanded="false" aria-controls="respuestaTres">¿La historia tiene un único final?</button></h3><div id="respuestaTres" class="accordion-collapse collapse" aria-labelledby="preguntaTres" data-bs-parent="#accordionHistoria"><div class="accordion-body">No. Existen numerosas escenas finales que se desbloquean al cumplir diferentes objetivos. Las expansiones añaden rutas y escenas adicionales.</div></div></div>
+        </div>
+      </section>
+
+      <section class="mb-5" aria-labelledby="titulo-finales">
+        <h2 class="section-title text-center" id="titulo-finales">FINALES Y SIGNIFICADOS</h2>
+        <div class="story-warning mb-3"><strong>⚠️ ADVERTENCIA DE SPOILERS:</strong> el siguiente contenido menciona elementos que se descubren al avanzar en el juego.</div>
+        <p>Los finales de <em>The Binding of Isaac</em> muestran diferentes escenas que amplían el trasfondo de Isaac. Algunos presentan imágenes relacionadas con su familia, su identidad, sus recuerdos y sus miedos. No todos los acontecimientos se explican literalmente: muchas escenas usan simbolismos y dejan preguntas abiertas.</p>
+        <details class="story-intro"><summary class="story-heading" style="cursor:pointer; font-family: 'Permanent-Marker', sans-serif;">MOSTRAR MÁS SOBRE LOS FINALES (SPOILERS)</summary><p class="mt-3">A medida que se desbloquean rutas y jefes, aparecen escenas que profundizan en la vida familiar de Isaac y su forma de interpretar lo que ocurre. En <em>Repentance</em>, la ruta de Home y los enfrentamientos finales amplían especialmente esta dimensión narrativa. Algunas lecturas de los acontecimientos son teorías de la comunidad y no hechos confirmados.</p></details>
+      </section>
+
+      <section class="text-center mb-3" aria-labelledby="titulo-cierre">
+        <h2 class="section-title" id="titulo-cierre">¿TE ANIMÁS A DESCUBRIR LA VERDAD?</h2>
+        <p>En cada habitación hay un nuevo desafío. En cada final, una pista más sobre la historia de Isaac.</p>
+      </section>
+    </div>
+  </main>
+
+ <footer class="new-wiki-footer text-center">
+        <div class="container">
+            <img src="../img/Site-logo.webp" alt="Logo" class="footer-logo mb-3">
+            <p class="footer-desc">La enciclopedia de The Binding of Isaac: Rebirth escrita y mantenida por la comunidad.</p>
+          <p class="footer-desc">Por Alfonso Bilbao Brandon Benicio y Carolina Andrea Soler</p>
+            <p class="footer-copy">© 2026 The Binding of Isaac Wiki.</p>
+        </div>
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
